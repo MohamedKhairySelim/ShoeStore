@@ -1,0 +1,9 @@
+include ':app'
+rootProject.name='ShoeStore'
+
+dependencyResolutionManagement{
+    repositories{
+        google()
+        jcenter()
+    }
+}

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ShoeStore</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="creating_New_Login">creating a new login</string>
+    <string name="login">login</string>
+    <string name="welcome">Welcome in our shoeStore App</string>
+    <string name="welcome_2">This App used to make shopping about buying shoe and take nice discount in your first order \n Have a nice time and sure to do your first order to take your discount</string>
+    <string name="skip">skip</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="loginScreen">LoginScreen</string>
+    <string name="discount">First Discount</string>
+    <string name="to_take_your_discount_use_the_code_of_mo2022_when_you_do_your_first_order_and_you_can_take_more_discount_when_you_make_more_and_more_orders_when_your_buy_about_200_egp_or_above_you_have_discount_10">to Take your discount use the code of Mo2022 when you do your first order and you can take more discount when you make more and more orders when your buy about 200 EGP or above you Have discount 10%</string>
+    <string name="log_out">Log_out</string>
+    <string name="shoe_name">Shoe Name</string>
+    <string name="shoe_company">Shoe Company</string>
+    <string name="shoe_size">Shoe Size</string>
+    <string name="description">Description</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+</resources>

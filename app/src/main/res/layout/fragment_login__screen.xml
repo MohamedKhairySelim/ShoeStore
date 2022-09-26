@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--I used constraintLayout because it used to build Responsive UI-->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/Login_Screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintTop_toBottomOf="@id/password_Edit_Text"
+    tools:context=".our_Fragments.LoginScreen">
+
+    <EditText
+        android:id="@+id/email_Edit_Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginTop="@dimen/large_margin"
+        android:inputType="textEmailAddress|textEmailSubject"
+        android:minHeight="48dp"
+        android:hint="@string/email"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/password_Edit_Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_marginEnd="@dimen/margin"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:minHeight="@dimen/minHeight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email_Edit_Text" />
+
+    <Button
+        android:id="@+id/create_newLoginAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintVertical_weight="1"
+        android:layout_marginStart="@dimen/margin"
+        android:text="@string/creating_New_Login"
+        app:layout_constraintBaseline_toBaselineOf="@+id/login"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_marginEnd="@dimen/margin"
+        android:text="@string/login"
+        app:layout_constraintEnd_toEndOf="@id/password_Edit_Text"
+        app:layout_constraintStart_toEndOf="@id/create_newLoginAccount"
+        app:layout_constraintTop_toBottomOf="@+id/password_Edit_Text"
+        app:layout_constraintVertical_weight="1" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
